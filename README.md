@@ -1,4 +1,4 @@
-# sp-yleiskaava
+# sp-maakuntakaava
 Kaavatietomallin soveltamisprofiili maakuntakaava-aineistoille
 
-submodule ry-tietomallit repoon, pohjaksi kopioitu yleiskaavan soveltamisprofiili
+submodule SYKEN ry-tietomallit repoon, pohjaksi kopioitu yleiskaavan soveltamisprofiili
