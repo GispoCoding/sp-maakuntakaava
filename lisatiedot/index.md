@@ -75,3 +75,4 @@ Ympäristöltään säilytettävä alue -ryhmän lisätietokoodein voidaan täsm
 Esimerkkejä:
 
 * Määräys [Vesialue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/vesiAlue) + lisätieto [ymparistoltaanSailytettavaAlue](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/uusi>) = ```Ympäristöltään säilytettävä vesialue```.
+* * Määräys [Maisemallisesti arvokas alue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/maisemallisestiArvokasAlue) + lisätieto [ymparistoltaanSailytettavaAlue](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/uusi>) = ```Maisemallisesti arvokas alue, ympäristö säilytettävä```.
