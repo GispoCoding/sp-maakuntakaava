@@ -9,7 +9,7 @@ status: "Ehdotus"
 
 Kehittämisperiaatteet, kuten Kehittämistarve, Yhteystarve ja Selvitystarve,  ovat maakuntakaavoituksessa usein käytettyjä.  Huomioitava on, että esimerkiksi yleiskaavatasolla voidaan käyttää irrallisena [AlueJotaKoskeeKehittamisperiaate](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/alueJotaKoskeeKehittamisperiaate)-koodia, mutta maakuntakaavatasolla kehittämisperiaatteet yleensä liittyvät johonkin toimintoon. Tästä esimerkkinä miten muodostetaan **Asumisen kehittämistarve**:
 
-[AsumisenAlue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/AsumisenAlue) ja kehittämisperiaate määritellään [Lisätiedonlajin](linkki?)[Kehittämisperiaate](linkki?) avulla. 
+[AsumisenAlue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/AsumisenAlue) ja kehittämisperiaate määritellään [Lisätiedonlajin](linkki?) [Kehittämisperiaate](linkki?) avulla. 
 
 Seuraavat kehittämisperiaatteet ovat myös käytössä maakuntakaavoissa:
 
