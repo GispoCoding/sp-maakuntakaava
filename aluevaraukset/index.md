@@ -19,4 +19,5 @@ Maakuntakaavan aluevaraus liittyy assosiaatiolla ```maarays``` yhteen tai useamp
 
 Huomiona Kaavamääräyslajin arvoista: Maakuntakaavoituksessa aluevarausten osalta käytetään usein ylimmän hierarkiatason kaavamääräyslajeja (esim. AsumisenAlueita voidaan esittää, mutta maakuntakaavatasolla ei esitetä esimerkiksi AsuinPienTaloAlueita)
 
-Aluevaraukset ovat maakuntakaavassa usein olemassa olevia jo muilla kaavatasoilla määriteltyjä varauksia
+Aluevaraukset ovat maakuntakaavassa usein olemassa olevia jo muilla kaavatasoilla määriteltyjä varauksia. Niihin ei tule yleensä mitään suureita, poikkeuksen muodostaa
+[Tuulivoimaloiden määrä -suure](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tuulivoimaloidenMaara). 
