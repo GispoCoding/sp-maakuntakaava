@@ -15,7 +15,7 @@ status: "Ehdotus"
 
 Suure-tyyppisillä kaavamääräyksillä tarkoitetaan tässä [Kaavamääräyslaji](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/)-koodiston koodeja, jotka sisältyvät määrityshierarkiaan ```Suure```.
 
-{% include common/clause_start.html type="req" id="sp-yk/vaat-arvot" %}
+{% include common/clause_start.html type="req" id="sp-mk/vaat-arvot" %}
 Tyypiltään suuremaisille kaavamääräyksille on ```arvo```-attribuutin arvona annettava **täsmälleen yksi** {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %}.
 {% include common/clause_end.html %}
 
