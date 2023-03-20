@@ -18,6 +18,11 @@ Maakuntakaavassa linjat ja väylät on {% include common/moduleLink.html moduleI
 Maakuntakaavan aluevaraus liittyy assosiaatiolla ```maarays``` yhteen tai useampaan sellaiseen [Kaavamaarays](dokumentaatio/#kaavamaarays)-luokan objektiin, jonka ```laji```-attribuutin arvo on jokin [Kaavamääräyslaji](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays)-koodiston arvoista, joka sisältyy määrityshierarkioihin ```Maakuntakaava```. 
 {% include common/clause_end.html %}
 
+Linjoihin ja väyliin liittyy usein seuraavat lisätiedonlajit:
+- [uusi](linkki?)
+- [parannettava](?)
+- [ohjeellinen sijainti](?)
+
 Huomiona. Kaksiajoratainen päätie/-katu muodostetaan koodistojen avulla seuraavasti kaavamääräsyryhmäksi:
 [Kaavamääräyslaji](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays) [PaaKatu](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/paaKatu)
 [Kaavamääräyslaji](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays) [AjoratojenMaara](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/ajoratojenMaara), on Suure eli [Kaavamääräyslaji](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/)-koodiston koodi, jotka sisältyvät määrityshierarkiaan ```Suure```. Ja sille voi antaa
