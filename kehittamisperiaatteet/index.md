@@ -36,12 +36,11 @@ Maakuntakaavatasolla yhteystarve voi  liittyä myös johonkin toimintoon. Täst�
 Esimerkkejä:
 - [AlueJotaKoskeeKehittamisperiaate](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/alueJotaKoskeeKehittamisperiaate) ja [Lisätiedonlajin](linkki?)  [Eheyttävä tai tiivistettävä alue](linkki?).
 
-Seuraavat maakuntakaavoissa usein käytetyt toiminnallisuudet voidaan kuvata [AlueJotaKoskeeKehittamisperiaate](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/alueJotaKoskeeKehittamisperiaate) antamalla niille TekstiArvo 
+Seuraavat maakuntakaavoissa usein käytetyt toiminnallisuudet voidaan kuvata [AlueJotaKoskeeKehittamisperiaate](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/alueJotaKoskeeKehittamisperiaate) ```arvo```-attribuutin arvoina saa esiintyä mm. seuraavaa, myös muunlaiset arvot ovat sallittuja.
 - Maaseudun kehittäminen
 - Ekologinen kehittäminen
 - Matkailun vetovoima-alue
 - Kaupunkikehittäminen
-- Myös muita TekstiArvoja sallitaan 
 
 ## Yhdyskuntarakenteen laajenemissuunta
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/yhdyskuntarakenteenLaajenemissuunta>
