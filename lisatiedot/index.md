@@ -76,3 +76,11 @@ Esimerkkejä:
 
 * Määräys [Vesialue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/vesiAlue) + lisätieto [ymparistoltaanSailytettavaAlue](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/uusi>) = ```Ympäristöltään säilytettävä vesialue```.
 * * Määräys [Maisemallisesti arvokas alue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/maisemallisestiArvokasAlue) + lisätieto [ymparistoltaanSailytettavaAlue](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/uusi>) = ```Maisemallisesti arvokas alue, ympäristö säilytettävä```.
+
+## Maankäyttörajoitukset: rakentamisrajoitus
+
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/rakentamisrajoitusMaakuntakaava>
+
+Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
+
+Rakentamisrajoitus voidaan antaa lisätiedonlajina kaavakohteelle
