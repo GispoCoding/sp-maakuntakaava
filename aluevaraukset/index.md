@@ -6,10 +6,8 @@ status: "Ehdotus"
 ---
 # Maakuntakaavan aluevaraukset
 
-<!-- Kommentti / Ak/yk-työstä poimittu: - halutaanko eroon erillisistä aluevaraus / alueen käyttötarkoitus jne termeistä eri kaavatasojen välillä? Nyt tässä vanha oletus pohjalla -->
-
 {% include common/clause_start.html type="req" id="sp-mk/vaat-aluemainen-aluevaraus" %}
-Maakuntakaavan aluevaraus on {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohde" %}-luokan objekti, jonka ```geometria```-attribuutin kuvaama geometria on aluemainen tai pistemäinen. Tai aluemainen geometria voidaan visualisoinnissa generoida pisteeksiAluevaraukset ovat maakuntakaavassa usein olemassa olevia jo muilla kaavatasoilla määriteltyjä varauksia
+Maakuntakaavan aluevaraus on {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohde" %}-luokan objekti, jonka ```geometria```-attribuutin kuvaama geometria on aluemainen tai pistemäinen. Tai aluemainen geometria voidaan visualisoinnissa generoida pisteeksi. Aluevaraukset ovat maakuntakaavassa usein olemassa olevia jo muilla kaavatasoilla määriteltyjä varauksia.
 
 {% include common/clause_end.html %}
 
