@@ -8,19 +8,9 @@ status: "Ehdotus"
 {:.no_toc}
 
 
-## Kehittämistarve, yhteystarve ja selvitystarve lisätiedon lajina
+## Yhteystarve
 
-Kehittämistarve, yhteystarve ja selvitystarve voivat olla jonkin kaavamääräyksen lisätiedonlajina. 
-
-### Toiminto, jolla kehittämistarve lisätiedonlajina
-
-**Lisätiedonlaji: kehittämistarve**
-
-Maakuntakaavatasolla kehittämisperiaatteet voivat liittyä myös johonkin toimintoon. Tästä esimerkkinä miten muodostetaan **Asumisen kehittämistarve**:
-
-[AsumisenAlue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/AsumisenAlue) ja kehittämisperiaate määritellään [Lisätiedonlajin](linkki?) [Kehittämisperiaate](linkki?) avulla. 
-
-### Toiminto, jolla yhteystarve lisätiedonlajina
+Yhteystarve voi olla jonkin kaavamääräyksen lisätiedonlajina. 
 
 **Lisätiedonlaji: yhteystarve**
 
@@ -29,14 +19,11 @@ Maakuntakaavatasolla yhteystarve voi  liittyä myös johonkin toimintoon. Täst�
 [JoukkoliikenteenAlue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/JoukkoliikenteenAlue) ja kehittämisperiaate määritellään [Lisätiedonlajin](linkki?) [Yhteystarve](linkki?) avulla. 
 
 
-## Alue, jota koskee kehittämisperiaate
+## Kehittämisvyöhyke
 
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/alueJotaKoskeeKehittamisperiaate>
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/Kehittamisvyöhyke>
 
-Esimerkkejä:
-- [AlueJotaKoskeeKehittamisperiaate](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/alueJotaKoskeeKehittamisperiaate) ja [Lisätiedonlajin](linkki?)  [Eheyttävä tai tiivistettävä alue](linkki?).
-
-Seuraavat maakuntakaavoissa usein käytetyt toiminnallisuudet voidaan kuvata [AlueJotaKoskeeKehittamisperiaate](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/alueJotaKoskeeKehittamisperiaate) ```arvo```-attribuutin arvoina saa esiintyä mm. seuraavaa, myös muunlaiset arvot ovat sallittuja.
+Seuraavat maakuntakaavoissa usein käytetyt toiminnallisuudet voidaan kuvata [Kehittämisvyöhyke](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/kehittamisVyohyke) ```arvo```-attribuutin arvoina saa esiintyä mm. seuraavaa, myös muunlaiset arvot ovat sallittuja.
 - Maaseudun kehittäminen
 - Ekologinen kehittäminen
 - Matkailun vetovoima-alue
