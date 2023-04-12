@@ -8,7 +8,7 @@ status: "Ehdotus"
 
 ## Yhdyskuntarakenteen laajenemissuunta
 
-```Yhdyskuntarakenteen laajemissuunta```-kaavamääräyslaji saa ```numeerinen arvon```.  Kaavakohteen ```geometria```-attribuutin arvon tulee olla pistemäinen tai viivamainen.
+```Yhdyskuntarakenteen laajemissuunta```-kaavamääräyslaji saa ```numeerisen arvon```, joka kertoo laajenemisen suunnan asteina.  Kaavakohteen ```geometria```-attribuutin arvon tulee olla pistemäinen tai viivamainen.
 
 ## Kaupunki- tai kylakuvallisesti kehitettava alue
 
