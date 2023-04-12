@@ -10,7 +10,9 @@ Maakuntakaavan osa-alueet on Kaavakohde-luokan objekti, jonka ´´´geometria´�
 
 Maakuntakaavan osa-alueet liittyvät yhteen tai useampaan Kaavamääräys-luokan objektiin, joka sisältyy määrityshierarkioihin Maakuntakaava ja ei ole määritetty Aluevaraus-hierarkiaksi. Osa-alueen käyttötarkoitus osoitetaan lisätiedonlajilla Osa-alue.
 
-## Lisätiedonlajit, joilla alueellinen merkitys
+Osa-alueilla voidaan merkitä luonteeltaan erityisominaisuuksia kuvaavat kaavamääräykset. Maakuntakaavan osa-alueiden erityisominaisuudet voivat liittyä luonnon- tai kulttuuriympäristön, maiseman sekä luonnonvarojen erityisiin arvoihin. Erityisominaisuuksia voivat olla myös osa-alueiden alueidenkäyttöä erityisesti rajoittavat ominaisuudet, kuten melu- ja vaaraalueet tai suojavyöhykkeet. Tähän merkintäryhmään kuuluvat myös rakentamisrajoitusalueen laajentamista tai poistamista koskevat merkinnät
+
+## Osa-alueiden lisätiedonlajit, joilla alueellinen merkitys
 
 Seuraavien Kaavamääräyslajien osalta voidaan antaa niille alueellinen merkittävyys. Myös muita Kaavamääräyslajeja voi olla, jotka saavat vastaavan merkityksen. 
 
