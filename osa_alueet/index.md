@@ -27,3 +27,7 @@ Nämä voivat saada Lisätiedonlajin
 
 * Valtakunnallinen tai
 * Maakunnallinen
+
+Esimerkkejä:
+
+Kaavamääräysryhmän otsikko: **Valtakunnallisesti merkittävä rakennettu kulttuuriympäristö** ```Merkittävä rakennettu kulttuuriympäristö``` ja lisätieto ```Valtakunnallinen```.
