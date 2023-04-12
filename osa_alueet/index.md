@@ -31,3 +31,14 @@ Nämä voivat saada Lisätiedonlajin
 Esimerkkejä:
 
 Kaavamääräysryhmän otsikko: **Valtakunnallisesti merkittävä rakennettu kulttuuriympäristö** ```Merkittävä rakennettu kulttuuriympäristö``` ja lisätieto ```Valtakunnallinen```.
+
+## Osa-alueet, joilla ympäristöltään säilytettävä alue
+
+```Ympäristöltään säilytettävä alue``` - lisätietolajilla voidaan täsmentää, pitääkö kaavamääräyksellä huomioida ympäristön säilytettävyys.
+
+Esimerkkejä:
+
+* Kaavamääräysryhmän otsikko: **Ympäristöltään säilytettävä vesialue** toteutaan kaavamääräyslaji ```Vesialue``` ja lisätietolaji ```Ymparistöltään säilytettävä alue``` avulla.
+
+* Kaavamääräysryhmän otsikko: **Maisemallisesti arvokas alue, ympäristö säilytettävä** toteutataan kaavamääräyslaji ```Maisemallisesti arvokas alue``` ja lisätietolaji ```Ymparistöltään säilytettävä alue``` avulla.
+
