@@ -4,49 +4,45 @@ description: ""
 id: "kehittamisperiaatteet"
 status: "Ehdotus"
 ---
-# Kaavamääräyslajit - kehittämisperiaatteet
-{:.no_toc}
+# Kaavamääräyslajit kehittämisperiaatteeissa
 
+## Yhdyskuntarakenteen laajenemissuunta
 
-## Yhteystarve
+```Yhdyskuntarakenteen laajemissuunta```-kaavamääräyslaji saa ```numeerinen arvon```.  Kaavakohteen ```geometria```-attribuutin arvon tulee olla pistemäinen tai viivamainen.
 
-Yhteystarve voi olla jonkin kaavamääräyksen lisätiedonlajina. 
+## Kaupunki- tai kylakuvallisesti kehitettava alue
 
-**Lisätiedonlaji: yhteystarve**
-
-Maakuntakaavatasolla yhteystarve voi  liittyä myös johonkin toimintoon. Tästä esimerkkinä miten muodostetaan **Joukkoliikenteen kehittämistarve**:
-
-[JoukkoliikenteenAlue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/JoukkoliikenteenAlue) ja kehittämisperiaate määritellään [Lisätiedonlajin](linkki?) [Yhteystarve](linkki?) avulla. 
-
+```Kaupunki- tai kylakuvallisesti kehitettava alue```-kaavamääräyslaji voi toimia itsenäisesti tai saada   ```arvo``` vapaatekstikenttä. Kaavakohteen ```geometria```-attribuutin arvon tulee olla pistemäinen tai aluemainen.
 
 ## Kehittämisvyöhyke
 
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/Kehittamisvyöhyke>
+Maakuntakaavoissa usein käytetyt strategiset kehittämisperiaatteet voidaan kuvata ```Kehittämisvyöhyke```-kaavamääräyslajilla, joka saa ```arvo``` vapaatekstikenttä. Sen arvona voi esiintyä mm. seuraavaa, myös muunlaiset arvot ovat sallittuja:
 
-Seuraavat maakuntakaavoissa usein käytetyt toiminnallisuudet voidaan kuvata [Kehittämisvyöhyke](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/kehittamisVyohyke) ```arvo```-attribuutin arvoina saa esiintyä mm. seuraavaa, myös muunlaiset arvot ovat sallittuja.
+- Ekologinen kehittämisvyöhyke / kohdealue
+- Energiahuollon / energiantuotannon kehittämisvyöhyke / kohdealue
+- Kaupan ja/tai palveluiden kehittämisvyöhyke / kohdealue
+- Kaupunkikehittämisen kehittämisvyöhyke / kohdealue
+- Keskustatoimintojen kehittämisvyöhyke / kohdealue
+- Liikenteen kehittämisvyöhyke / kohdealue
 - Maaseudun kehittäminen
-- Ekologinen kehittäminen
-- Matkailun vetovoima-alue
-- Kaupunkikehittäminen
+- Matkailun vetovoima-alue 
+- Matkailun ja virkistyksen kehittämisvyöhyke / kohdealue
+- Taajamatoimintojen kehittämisvyöhyke / kohdealue
+- Teollisuuden ja logistiikan kehittämivyöhyke / kohdealue
+- Uusiutuvan energian ja bioteollisuuden kehittämisalue / kohdealue
+- Yhdyskuntateknisen huollon kehittämisalue / kohdealue
 
-## Yhdyskuntarakenteen laajenemissuunta
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/yhdyskuntarakenteenLaajenemissuunta>
+Kehittämisvyöhykettä kuvaavan kaavakohteen ```geometria```-attribuutin arvon tulee olla aluemainen tai pistemäinen. 
 
-{% include common/clause_start.html type="req" id="sp-yk/vaat-yhdyskuntarakenteen-laajenemissuunta-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} [Kaavamääräyslaji](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays)-koodiston arvoa, jotka sisältyy määrityshierarkioihin ```Aluevaraus``` ja ```Maakuntakaava``` ja joiden avulla voidaan kuvata laajenevan yhdyskuntarakenteen käyttötarkoitukset. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
+# Lisätiedonlajit kehittämisperiaatteissa
 
-{% include common/clause_start.html type="req" id="sp-yk/vaat-yhdyskuntarakenteen-laajenemissuunta-geometria" %}
-{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohteen" %}, johon liittyy Yhdyskuntarakenteen laajenemissuunta -lajin kaavamääräys, ```geometria```-attribuutin arvon tulee olla pistemäinen tai viivamainen, ja sen tulee sijaita paikassa, josta yhdyskuntarakenne laajenee ```arvo```-attribuutin osoittamaan suuntaan.  
-{% include common/clause_end.html %}
+## Yhteystarve
 
-## Kaupunki- tai kylakuvallisesti kehitettava alue
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/kaupunkiTaiKylaKuvallisestiKehitettavaAlue>
+```Yhteystarve``` voi olla jonkin Kaavamääräys-koodin lisätiedonlajina, jolloin voidaan muodostaa yhteystarpeita. Kaavakohteen ```geometria```-attribuutin arvon tulee olla viivamainen.
 
-{% include common/clause_start.html type="req" id="sp-yk/vaat-kaupunki-kylakuvallisesti-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} [Kaavamääräyslaji](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays)-koodiston arvoa, jotka sisältyy määrityshierarkioihin ```Maakuntakaava``` ja joiden avulla voidaan kuvata käyttötarkoitus. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
+Esimerkki: Kaavamääräyryhmän otsikko **Joukkoliikenteen kehittämistarve**, sisältää Kaavamääräyslajin ```Joukkoliikenteen alue```ja sen Lisätiedonlajin ```Yhteystarve```.
 
-{% include common/clause_start.html type="req" id="sp-yk/vaat-yhdyskuntarakenteen-laajenemissuunta-geometria" %}
-{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohteen" %}, johon liittyy Kaupunki- tai kyläkuvallisesti kehitettävä alue -lajin kaavamääräys, ```geometria```-attribuutin arvon tulee olla aluemainen tai pistemäinen.  
-{% include common/clause_end.html %}
+## Eheytettävä tai tiivistettävä
+
+```Eheytettävä tai tiivistettävä``` voi olla jonkin Kaavamääräys-koodin lisätiedonlajina, jolloin voidaan muodostaa eheytettävän tai tiivistettävän alueen. Kaavakohteen ```geometria```-attribuutin arvon tulee olla aluemainen tai pistemäinen.
+
