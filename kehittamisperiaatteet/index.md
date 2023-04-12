@@ -50,8 +50,7 @@ Kaavamääräyryhmän otsikko **Viheryhteystarve** voidaan muodostaa liittämäl
 
 Kaavamääräyryhmän otsikko **Virkistysyhteystarve** voidaan muodostaa liittämällä kaavakohteeseen määräys ```Ulkoilu- tai virkistysreitti```sekä lisätieto ```Yhteystarve```.
 
-Erityyppiset **Tieliikenteen yhteystarpeet** saadaan kuvattua väylän toiminnallista luokkaa parhaiten kuvaavan määräyskoodin (esim. ```Valtatie``` ja lisätiedonlaji ```Yhteystarve``` yhdistelmänä.
-
+Erityyppiset **Tieliikenteen yhteystarpeet** saadaan kuvattua väylän toiminnallista luokkaa parhaiten kuvaavan määräyskoodin kuten```Valtatie``` ja listätieto ```Yhteystarve```.
 
 ## Eheytettävä tai tiivistettävä
 
