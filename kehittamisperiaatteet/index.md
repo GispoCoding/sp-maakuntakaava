@@ -12,11 +12,11 @@ status: "Ehdotus"
 
 ## Kaupunki- tai kylakuvallisesti kehitettava alue
 
-```Kaupunki- tai kylakuvallisesti kehitettava alue```-kaavamääräyslaji voi toimia itsenäisesti tai saada   ```arvo``` vapaatekstikenttä. Kaavakohteen ```geometria```-attribuutin arvon tulee olla pistemäinen tai aluemainen.
+```Kaupunki- tai kylakuvallisesti kehitettava alue```-kaavamääräyslaji voi toimia itsenäisesti tai saada   ```vapaatekstikenttä arvon``` . Kaavakohteen ```geometria```-attribuutin arvon tulee olla pistemäinen tai aluemainen.
 
 ## Kehittämisvyöhyke
 
-Maakuntakaavoissa usein käytetyt strategiset kehittämisperiaatteet voidaan kuvata ```Kehittämisvyöhyke```-kaavamääräyslajilla, joka saa ```arvo``` vapaatekstikenttä. Sen arvona voi esiintyä mm. seuraavaa, myös muunlaiset arvot ovat sallittuja:
+Maakuntakaavoissa usein käytetyt strategiset kehittämisperiaatteet voidaan kuvata ```Kehittämisvyöhyke```-kaavamääräyslajilla, joka saa ```vapaatekstikenttä arvon```. Sen arvona voi esiintyä mm. seuraavaa, myös muunlaiset arvot ovat sallittuja:
 
 - Ekologinen kehittämisvyöhyke / kohdealue
 - Energiahuollon / energiantuotannon kehittämisvyöhyke / kohdealue
