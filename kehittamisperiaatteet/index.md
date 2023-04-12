@@ -40,7 +40,18 @@ Kehittämisvyöhykettä kuvaavan kaavakohteen ```geometria```-attribuutin arvon 
 
 ```Yhteystarve``` voi olla jonkin Kaavamääräys-koodin lisätiedonlajina, jolloin voidaan muodostaa yhteystarpeita. Kaavakohteen ```geometria```-attribuutin arvon tulee olla viivamainen.
 
-Esimerkki: Kaavamääräyryhmän otsikko **Joukkoliikenteen kehittämistarve**, sisältää Kaavamääräyslajin ```Joukkoliikenteen alue```ja sen Lisätiedonlajin ```Yhteystarve```.
+Esimerkkejä: 
+
+Kaavamääräyryhmän otsikko **Joukkoliikenteen kehittämistarve**, sisältää Kaavamääräyslajin ```Joukkoliikenteen alue```ja sen Lisätiedonlajin ```Yhteystarve```.
+
+Kaavamääräyryhmän otsikko **Johdon, putken tai linjan yhteystarve** voidaan muodostaa liittämällä kaavakohteeseen määräys ```Johto, putki tai linja```ja sen Lisätiedonlajin ```Yhteystarve```.
+
+Kaavamääräyryhmän otsikko **Viheryhteystarve** voidaan muodostaa liittämällä kaavakohteeseen määräys ```Viheralue```sekä lisätieto ```Yhteystarve```.
+
+Kaavamääräyryhmän otsikko **Virkistysyhteystarve** voidaan muodostaa liittämällä kaavakohteeseen määräys ```Ulkoilu- tai virkistysreitti```sekä lisätieto ```Yhteystarve```.
+
+Erityyppiset **Tieliikenteen yhteystarpeet** saadaan kuvattua väylän toiminnallista luokkaa parhaiten kuvaavan määräyskoodin (esim. ```Valtatie``` ja lisätiedonlaji ```Yhteystarve``` yhdistelmänä.
+
 
 ## Eheytettävä tai tiivistettävä
 
