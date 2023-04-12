@@ -1,24 +1,28 @@
 ---
 layout: "default"
 description: ""
-id: "ymparistoarvojen-alue"
+id: "osa-alueet"
 status: "Ehdotus"
 ---
-# Kaavamääräyslajit - ympäristöarvojen alue
-{:.no_toc}
+# Osa-alueet
 
-1. 
-{:toc}
+Maakuntakaavan osa-alueet on Kaavakohde-luokan objekti, jonka ´´´geometria´´´ on aluemainen tai pistemäinen tai viivamainen. Aluemainen geometria voidaan visualisoinnissa myös generoida pisteeksi. Nämä kaavakohteet voivat topologisesti mennä päällekkäin. 
 
-## Kulttuuriymparistöarvojen alue
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/kulttuuriymparistoarvojenAlue>
+Maakuntakaavan osa-alueet liittyvät yhteen tai useampaan Kaavamääräys-luokan objektiin, joka sisältyy määrityshierarkioihin Maakuntakaava ja ei ole määritetty Aluevaraus-hierarkiaksi. Osa-alueen käyttötarkoitus osoitetaan lisätiedonlajilla Osa-alue.
 
-{% include common/clause_start.html type="req" id="sp-ak/vaat-kulttuuriymparistoarvojen-alue" %}
-* ```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
-* ```lisatieto```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatieto" title="Lisatieto" %} joka ```laji``` on yksi seuraavista:   
-   * [Kulttuurihistoriallinen merkittävyys](http://uri.suomi.fi/codelist/rytj/RY_LisatiedonLaji_AK/code/05), jonka arvoina on yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} jotka viittaavat johonkin [Kulttuurihistoriallinen merkittävyys](http://uri.suomi.fi/codelist/rakrek/kulthistmer) koodiston koodeista,
-   * [Kulttuurihistoriallinen arvotyyppi](http://uri.suomi.fi/codelist/rytj/RY_LisatiedonLaji_AK/code/06), jonka arvoina on yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} jotka viittaavat johonkin [Kulttuurihistoriallinen arvotyyppi](http://uri.suomi.fi/codelist/rakrek/Kulthistatyyp) koodiston koodeista,
-   * [Kulttuurihistoriallinen tyyppi](http://uri.suomi.fi/codelist/rytj/RY_LisatiedonLaji_AK/code/07), jonka arvoina on yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} jotka viittaavat johonkin [Kulttuurihistoriallinen tyyppi](http://uri.suomi.fi/codelist/rakrek/kulthistyyp) koodiston koodeista, tai
-   * [Kulttuurihistoriallisen merkittävyyden kriteerit](http://uri.suomi.fi/codelist/rytj/RY_LisatiedonLaji_AK/code/08), jonka arvoina on yksi tai useampi{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} joka viittaa johonkin [Kulttuurihistoriallisen merkittävyyden kriteerit](http://uri.suomi.fi/codelist/rakrek/KultKritee) koodiston koodeista.
-Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
+## Lisätiedonlajit, joilla alueellinen merkitys
+
+Seuraavien Kaavamääräyslajien osalta voidaan antaa niille alueellinen merkittävyys. Myös muita Kaavamääräyslajeja voi olla, jotka saavat vastaavan merkityksen. 
+
+* Kulttuuriympäristöarvojen alue
+* Maisemallisesti arvokas alue
+* Saamelaiskulttuurin kannalta tärkeä alue
+* Kulttuuriympäristöarvojen alue
+* Maisemallisesti arvokas alue
+* Merkittävä rakennettu kulttuuriympäristö 
+
+Nämä voivat saada Lisätiedonlajin
+
+* Valtakunnallinen tai
+* Maakunnallinen
+
